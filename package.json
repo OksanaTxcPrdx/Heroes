@@ -1,0 +1,19 @@
+{
+  "name": "heroes",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Oksana Budko",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "watch": "webpack --mode=development",
+    "start": "webpack serve --mode=development --open"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^14.0.0",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.0.0"
+  }
+}

@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("first module is working"),console.log("second module is working")})();
+(()=>{"use strict";fetch("../dbHeroes.json").then(e=>e.json()).then(e=>e[0]),console.log("second module is working")})();

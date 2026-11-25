@@ -1,5 +1,8 @@
-import first from './modules/firstModule';
+import getData from './modules/getJSONData';
 import second from './modules/secondModule';
 
-first();
+let heroesDataPath = '/dbHeroes.json';
+
+getData(heroesDataPath)
+.then(data => console.log(data));
 second();

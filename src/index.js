@@ -1,8 +1,7 @@
 import getData from './modules/getJSONData';
-import second from './modules/secondModule';
+import second from './modules/showCards';
 
 let heroesDataPath = '/dbHeroes.json';
 
 getData(heroesDataPath)
-.then(data => console.log(data));
-second();
+.then(data => second(data));
